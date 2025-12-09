@@ -1,0 +1,63 @@
+baseURL = "https://pushpalanka.com/"
+title = "Pushpalanka"
+theme = "PaperMod"
+languageCode = "en-us"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  title = "Pushpalanka"
+  description = "Architecting Secure Identity Systems"
+  keywords = ["Identity", "Security", "IAM", "Go", "Architecture"]
+  author = "Pushpalanka"
+
+  # The "Sage" Aesthetic settings
+  defaultTheme = "auto" # Respects system preference (Dark/Light)
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true # Crucial for tech blogs
+
+  [params.profileMode]
+    enabled = true
+    title = "Pushpalanka"
+    subtitle = "Architecting Secure Identity Systems"
+    imageUrl = "" # You can add your headshot later
+
+    [[params.profileMode.buttons]]
+      name = "Articles"
+      url = "posts"
+
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "about"
+
+    [[params.profileMode.buttons]]
+      name = "GitHub"
+      url = "https://github.com/Pushpalanka"
+
+   [[params.profileMode.buttons]]
+      name = "LinkedIn"
+      url = "https://www.linkedin.com/in/pushpalanka"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Articles"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 20
