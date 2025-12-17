@@ -27,7 +27,7 @@ Below is the full visual case study I presented to Concurrency and Operating Sys
          loading="lazy">
 
     <img src="/images/multi-threading-case/multi-threading-case-3.webp" 
-         alt="The Phantom Error: A 'Locked Room Mystery' in Kubernetes where a pod reports <5% error rate with zero logs." 
+         alt="The Phantom Error: A 'Locked Room Mystery' in Kubernetes where a pod reports less than 5% error rate with zero logs." 
         loading="lazy">
 
     <img src="/images/multi-threading-case/multi-threading-case-4.webp" 
