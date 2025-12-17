@@ -15,7 +15,7 @@ Below is the full visual case study I presented to Concurrency and Operating Sys
 ### 📥 [Download as PDF](/stale-snapshot-case.pdf) (For offline reading)
 
 ---
-
+{{< rawhtml >}}
 <div class="slide-container">
 
     <img src="/images/multi-threading-case/multi-threading-case-1.webp" 
@@ -90,6 +90,7 @@ Below is the full visual case study I presented to Concurrency and Operating Sys
   .slide-container { max-width: 100%; margin: 20px auto; }
   .slide-container img { width: 100%; height: auto; display: block; margin-bottom: 0; border: none; }
 </style>
+{{< /rawhtml >}}
 ---
 
 ### Key Takeaways
