@@ -6,6 +6,42 @@
     <description>Recent content in Tags on Pushpalanka</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pushpalanka.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debugging</title>
+      <link>https://pushpalanka.com/tags/debugging/</link>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/debugging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Engineering</title>
+      <link>https://pushpalanka.com/tags/engineering/</link>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://pushpalanka.com/tags/go/</link>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multi-Threading</title>
+      <link>https://pushpalanka.com/tags/multi-threading/</link>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/multi-threading/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Race Condition</title>
+      <link>https://pushpalanka.com/tags/race-condition/</link>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/race-condition/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
