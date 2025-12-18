@@ -61,7 +61,9 @@ buildExpired = false
   name = "About"
   url = "/about/"
   weight = 20
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+
+[params.assets]
+    favicon = "/push-favicon/favicon.ico"
+    favicon16x16 = "/push-favicon/favicon-16x16.png"
+    favicon32x32 = "/push-favicon/favicon-32x32.png"
+    apple_touch_icon = "/push-favicon/apple-touch-icon.png"
