@@ -9,7 +9,7 @@
     <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pushpalanka.com/tags/debugging/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Case of the Stale Snapshot: Debugging OPA Race Conditions</title>
+      <title>The Case of the Stale Snapshot: Tracking a Logical Race in Real-World Systems</title>
       <link>https://pushpalanka.com/posts/stale-snapshot-case/</link>
       <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://pushpalanka.com/posts/stale-snapshot-case/</guid>
