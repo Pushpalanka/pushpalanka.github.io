@@ -55,6 +55,5 @@ Below is the full visual case study I presented to Concurrency and Operating Sys
 2. **Time is not linear:** In multi-threaded systems, pre-emption means "later" in code does not mean "later" in time.
 3. **The Quick Fix:** Bypass the notification channel and query the Source of Truth directly.
 
-#### Disclaimer
-Organic content from original blog : [Beyond Race Detectors](https://pushpalanka.medium.com/beyond-race-detectors-first-hand-experience-debugging-a-multi-threaded-stale-data-issue-debd3a65da14)
-Slides structure supported by NotebookLLM and beautified by NanoBanana in Google slides.
+#### Disclaimer:
+Organic content from original blog : [Beyond Race Detectors](https://pushpalanka.medium.com/beyond-race-detectors-first-hand-experience-debugging-a-multi-threaded-stale-data-issue-debd3a65da14). Slides structure supported by NotebookLLM and beautified by NanoBanana in Google slides.
