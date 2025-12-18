@@ -4,29 +4,25 @@ date: 2025-12-10
 draft: false
 hidemeta: true
 comments: false
-description: "Identity Architect. Engineer. Human"
+description: "Identity Architect. Engineer. Human."
 ---
 
-### The Name
-People often ask me about the meaning of my name.
+### The Professional 
 
-**Pushpa (පුෂ්ප)** means *Flower* in Sinhalese inherited from Sanskrit.
-**Lanka (ලංකා)** is the ancient name for my homotherland, *The Resplendent Land* (Sri Lanka).
+{{< figure src="/images/speaking-eic.jpg" caption="Sharing insights on Identity Security at the European Identity and Cloud Conference (EIC)." >}}
 
-Together, **Pushpalanka** represents me and my roots. It reminds me that even in the rigid world of digital security, systems must be adaptable to survive.
+My craft lies in the invisible infrastructure that keeps high-scale systems secure, resilient, and fast. Specializing in **Identity Architecture (IAM)** and **Performance Engineering**, I spend my days solving complex concurrency puzzles, designing, and implementing distributed systems where security doesn't come at the cost of speed.
 
-### The Professional
-I am a **Senior Software Engineer** in Platform IAM based in Germany. I contribute to corporate and partner identity access management in the internal developer platform.
+---
 
-For years, I have worked in the trenches of **Identity and Access Management (IAM)**. To many, IAM is just a "login box" or a compliance hurdle. To me, it is the **Digital Nervous System** of the modern enterprise.
+### The Human 
 
-My expertise lies in the engineering behind the architecture:
+{{< figure src="/images/nature-water.jpg" caption="Finding the narrative in the silence." >}}
 
-* **Modern Auth Protocols:** Deep implementation experience with OIDC, OAuth2, SAML, SCIM and XACML — knowing not just how they work, but when *not* to use them.
-* **Authorization at Scale:** Moving beyond simple roles (RBAC) to fine-grained, policy-driven access(Open Policy Agent) that works across distributed systems.
-* **Performance Engineering:** I don't just trust the spec; I verify with data. I focus on benchmarking, reducing latency, and optimizing throughput for high-scale identity systems.
+Beyond the terminal, I am a global citizen. While my roots are deeply planted in my homeland, **Sri Lanka**, I navigate the world with a profound respect for the diverse cultures I encounter across continents. I trade my keyboard for a camera to capture the quiet moments; finding the stories where silence speaks the loudest.
 
-### The Philosophy
-I believe that good security architecture shouldn't be a locked door that frustrates users. It should be an intelligent ecosystem that recognizes people, adapts to context, and protects the core without stopping the flow of business.
+---
 
-This site is my digital garden, a place where I document my blueprints, my benchmarks, and my perspective on building secure systems as one more string in the human network.
+Whether I am architecting a system or composing a photograph, my philosophy remains the same: observe with patience, respect the context, and find the beauty in the details.
+
+---
