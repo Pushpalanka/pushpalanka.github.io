@@ -1,5 +1,5 @@
 ---
-title: "The Case of the Stale Snapshot: Debugging OPA Race Conditions"
+title: "The Case of the Stale Snapshot: Tracking a Logical Race in Real-World Systems"
 date: 2025-12-17
 tags: ["Engineering", "Debugging", "Multi-threading", "Go", "Race condition"]
 summary: "How I tracked down a 'Phantom Error' in a high performance Authorization layer that defied logic, race detectors, and logs."
