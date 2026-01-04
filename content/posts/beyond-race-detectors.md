@@ -15,8 +15,6 @@ During a new feature rollout of Skipper (An opensource ingress controller from Z
 
 *(If a more visual representation is appealing to you, refer the slide deck shared at https://pushpalanka.com/posts/stale-snapshot-case. It was prepared as an industry example for concurrency and operating system students.)*
 
-{{< figure src="/images/beyond-race-detectors/detective.webp" caption="Multi-threading race goes unnoticed to race detector" width="400" align="center" >}}
-
 ## 1. Overview
 
 This post explores a snapshot consistency problem in notification systems. It only appeared when starting 50+ OPA instances in parallel, revealing how resource contention can expose narrow timing windows in seemingly safe code. In this post, I'll share the journey of detecting, reproducing, isolating, and fixing a multi-threading issue that was both difficult to reproduce and even harder to pinpoint.
