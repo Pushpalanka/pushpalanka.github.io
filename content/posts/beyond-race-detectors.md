@@ -9,6 +9,7 @@ description: "Sharing first hand experience with OPA's plugin manager, demonstra
 cover:
     image: "/images/beyond-race-detectors/detective.webp"
     alt: "Multi-threading debugging illustration"
+canonicalURL: https://pushpalanka.com/posts/beyond-race-detectors    
 ---
 
 During a new feature rollout of Skipper (An opensource ingress controller from Zalando), we hit a puzzling issue: <5% of requests to a specific route failed consistently in one pod, while the same configuration worked perfectly everywhere else. The culprit? A timing-dependent bug in how OPA's plugin manager handles state notifications - one that Go's race detector won't catch.
