@@ -4,7 +4,7 @@
     <title>Tags on Pushpalanka</title>
     <link>https://pushpalanka.com/tags/</link>
     <description>Recent content in Tags on Pushpalanka</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.154.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pushpalanka.com/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -41,6 +41,34 @@
       <link>https://pushpalanka.com/tags/race-condition/</link>
       <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://pushpalanka.com/tags/race-condition/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Concurrency</title>
+      <link>https://pushpalanka.com/tags/concurrency/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/concurrency/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opa</title>
+      <link>https://pushpalanka.com/tags/opa/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/opa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Skipper</title>
+      <link>https://pushpalanka.com/tags/skipper/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/skipper/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zalando</title>
+      <link>https://pushpalanka.com/tags/zalando/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/zalando/</guid>
       <description></description>
     </item>
   </channel>

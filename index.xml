@@ -4,7 +4,7 @@
     <title>Pushpalanka</title>
     <link>https://pushpalanka.com/</link>
     <description>Recent content on Pushpalanka</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.154.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pushpalanka.com/index.xml" rel="self" type="application/rss+xml" />
@@ -21,6 +21,13 @@
       <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://pushpalanka.com/about/</guid>
       <description>Identity Architect. Engineer. Human.</description>
+    </item>
+    <item>
+      <title>Beyond Race Detectors: First-hand Experience Debugging a Multi-threaded Stale Data Issue</title>
+      <link>https://pushpalanka.com/posts/beyond-race-detectors/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/posts/beyond-race-detectors/</guid>
+      <description>Sharing first hand experience with OPA&amp;#39;s plugin manager, demonstrating a snapshot-based, inconsistent notification problem</description>
     </item>
   </channel>
 </rss>
