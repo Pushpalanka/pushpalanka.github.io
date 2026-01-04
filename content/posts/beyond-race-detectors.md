@@ -1,6 +1,6 @@
 ---
 title: "Beyond Race Detectors: First-hand Experience Debugging a Multi-threaded Stale Data Issue"
-date: 2024-11-11T00:00:00Z
+date: 2025-11-11T00:00:00Z
 draft: false
 author: "Pushpalanka"
 tags: ["go", "concurrency", "debugging", "multi-threading", "opa", "skipper", "zalando"]
