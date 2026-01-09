@@ -40,11 +40,11 @@ Dependency base calculations should not be underestimated, as they involve costl
 
 ### CPU profile
 
-{{< figure src="/images/optimization-backfire/cpu-profile.webp" caption="CPU profile showing dependency calculation overhead" width="500" align="center" >}}
+{{< figure src="/images/optimization-backfire/cpu-profile.webp" caption="CPU profile showing dependency calculation overhead" align="center" >}}
 
 ### Memory alloc object profile
 
-{{< figure src="/images/optimization-backfire/memory-profile.webp" caption="Memory alloc object profile" width="500" align="center" >}}
+{{< figure src="/images/optimization-backfire/memory-profile.webp" caption="Memory alloc object profile" align="center" >}}
 
 
 ## Trade offs
