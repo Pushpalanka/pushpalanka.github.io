@@ -14,7 +14,7 @@ cover:
 
 ## Background
 
-This learning comes from a project aimed at providing Externalized Authorization as a Service (AaaS), integrated directly into the platform. The solution leverages Open Policy Agent (OPA) as the Policy Decision Point (PDP), with policy enforcement handled by Skipper — an open-source ingress controller and reverse proxy. Skipper integrates with OPA to serve as the Policy Enforcement Point (PEP). For a detailed overview, refer to [this Zalando Engineering blog](https://opensource.zalando.com/skipper/).
+This learning comes from a project aimed at providing Externalized Authorization as a Service (AaaS), integrated directly into the platform. The solution leverages Open Policy Agent (OPA) as the Policy Decision Point (PDP), with policy enforcement handled by Skipper — an open-source ingress controller and reverse proxy. Skipper integrates with OPA to serve as the Policy Enforcement Point (PEP). For a detailed overview, refer to [this Zalando Engineering blog](https://engineering.zalando.com/posts/2024/12/open-policy-agent-in-skipper-ingress.html).
 
 As an ingress controller, Skipper is designed to introduce minimal overhead to requests. Given the large number of deployed instances, any inefficiency in resource allocation can quickly scale into significant costs. Similarly, even a delay of just a few milliseconds per request becomes expensive when multiplied across thousands of requests flowing through Skipper. Now should we save the goat or the cabbages?
 
