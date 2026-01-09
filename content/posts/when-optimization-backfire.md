@@ -20,7 +20,8 @@ As an ingress controller, Skipper is designed to introduce minimal overhead to r
 
 ## Optimization
 
-![Conditional HTTP body parsing optimization](/images/optimization-backfire/optimization-diagram.webp)
+{{< figure src="/images/optimization-backfire/optimization-diagram.webp" caption="Conditional HTTP body parsing optimization" width="400" align="center" >}}
+
 
 When Skipper receives an HTTP request, it transforms the request into a format compatible with OPA. To optimize memory usage, parsing of the HTTP body is performed conditionally, avoiding unnecessary overhead. Parsing is triggered only if the active policy in OPA explicitly depends on the HTTP body. OPA provided a very straightforward call to deduce this with,
 
@@ -28,25 +29,23 @@ When Skipper receives an HTTP request, it transforms the request into a format c
 dependencies.Base(opa.Compiler(), opa.EnvoyPluginConfig().ParsedQuery)
 ```
 
-![Dependency base calculation flow](/images/optimization-backfire/deps.webp)
+{{< figure src="/images/optimization-backfire/deps.webp" caption="Dependency base calculation flow" width="400" align="center" >}}
+
 
 So if the function sees `parsed_body` is a base document of the policies, HTTP body will be parsed. For simple policies this was working smooth and fine, but things started to get more interesting and challenging as the policies get complex.
 
 ## How it backfired
 
-Dependency base calculations should not be underestimated, as they involve costly graph traversal, particularly with recursive function calls. The complexity and overhead of recursively processing dependencies escalated as the policy grew. Thanks to the OPA community, the base function was optimized ([as shown here](https://github.com/open-policy-agent/opa/pull/7090)), but since it remained recursive, the improvement only provided limited relief. The result was that, before the parsed body could fill the memory, it was already being consumed by the dependency calculation objects, and the calculation added to the CPU load.
+Dependency base calculations should not be underestimated, as they involve costly graph traversal, particularly with recursive function calls. The complexity and overhead of recursively processing dependencies escalated as the policy grew. Thanks to the OPA community, the base function was optimized ([as shown here](https://github.com/open-policy-agent/opa/pull/6688)), but since it remained recursive, the improvement only provided limited relief. The result was that, before the parsed body could fill the memory, it was already being consumed by the dependency calculation objects, and the calculation added to the CPU load.
 
 ### CPU profile
 
-![CPU profile showing dependency calculation overhead](/images/optimization-backfire/cpu-profile.webp)
-
-CPU profile
+{{< figure src="/images/optimization-backfire/cpu-profile.webp" caption="CPU profile showing dependency calculation overhead" width="500" align="center" >}}
 
 ### Memory alloc object profile
 
-![Memory allocation object profile](/images/optimization-backfire/memory-profile.webp)
+{{< figure src="/images/optimization-backfire/memory-profile.webp" caption="Memory alloc object profile" width="500" align="center" >}}
 
-Memory alloc object profile
 
 ## Trade offs
 
@@ -56,7 +55,7 @@ At this point it was clear the optimization has backfired and we got rid of it w
 
 2. **We could also calculate the dependency.base just after each policy bundle loading to OPA.** This reduces the calculation to per policy update than to per request which is better. Still if the policies get updated frequently (with near real time access data etc.), the issue will still arise.
 
-As of now, we opted to **option 1** and entirely got rid of the dependency base calculation ([The implementation with before/after CPU and memory profiles and benchmark test can be found here](https://github.com/zalando/skipper/pull/3562)). This means body of the each request will be parsed. As a guard we have a configurable max limit for body size to be parsed. This approach allows for a more accurate estimation of how many requests a single Skipper instance can handle, taking into account the available memory, and enables scaling based on anticipated traffic with a safer margin.
+As of now, we opted to **option 1** and entirely got rid of the dependency base calculation ([The implementation with before/after CPU and memory profiles and benchmark test can be found here](https://github.com/zalando/skipper/pull/3210)). This means body of the each request will be parsed. As a guard we have a configurable max limit for body size to be parsed. This approach allows for a more accurate estimation of how many requests a single Skipper instance can handle, taking into account the available memory, and enables scaling based on anticipated traffic with a safer margin.
 
 ## The Result
 
