@@ -4,7 +4,7 @@
     <title>Technical on Pushpalanka</title>
     <link>https://pushpalanka.com/categories/technical/</link>
     <description>Recent content in Technical on Pushpalanka</description>
-    <generator>Hugo -- 0.154.2</generator>
+    <generator>Hugo -- 0.154.3</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pushpalanka.com/categories/technical/index.xml" rel="self" type="application/rss+xml" />
@@ -14,6 +14,13 @@
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://pushpalanka.com/posts/beyond-race-detectors/</guid>
       <description>Sharing first hand experience with OPA&amp;#39;s plugin manager, demonstrating a snapshot-based, inconsistent notification problem</description>
+    </item>
+    <item>
+      <title>When Optimizations Backfire: Learnings at Policy Enforcement</title>
+      <link>https://pushpalanka.com/posts/when-optimization-backfire/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/posts/when-optimization-backfire/</guid>
+      <description>How a well-intentioned memory optimization led to 2x resource usage, and the lessons learned about trade-offs in production systems</description>
     </item>
   </channel>
 </rss>

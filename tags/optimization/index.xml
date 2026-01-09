@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Optimization on Pushpalanka</title>
+    <link>https://pushpalanka.com/tags/optimization/</link>
+    <description>Recent content in Optimization on Pushpalanka</description>
+    <generator>Hugo -- 0.154.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://pushpalanka.com/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When Optimizations Backfire: Learnings at Policy Enforcement</title>
+      <link>https://pushpalanka.com/posts/when-optimization-backfire/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/posts/when-optimization-backfire/</guid>
+      <description>How a well-intentioned memory optimization led to 2x resource usage, and the lessons learned about trade-offs in production systems</description>
+    </item>
+  </channel>
+</rss>

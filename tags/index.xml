@@ -4,7 +4,7 @@
     <title>Tags on Pushpalanka</title>
     <link>https://pushpalanka.com/tags/</link>
     <description>Recent content in Tags on Pushpalanka</description>
-    <generator>Hugo -- 0.154.2</generator>
+    <generator>Hugo -- 0.154.3</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pushpalanka.com/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -69,6 +69,34 @@
       <link>https://pushpalanka.com/tags/zalando/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://pushpalanka.com/tags/zalando/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Authorization</title>
+      <link>https://pushpalanka.com/tags/authorization/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/authorization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Optimization</title>
+      <link>https://pushpalanka.com/tags/optimization/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/optimization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance</title>
+      <link>https://pushpalanka.com/tags/performance/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Policy-Enforcement</title>
+      <link>https://pushpalanka.com/tags/policy-enforcement/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/policy-enforcement/</guid>
       <description></description>
     </item>
   </channel>

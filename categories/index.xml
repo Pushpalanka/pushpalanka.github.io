@@ -4,7 +4,7 @@
     <title>Categories on Pushpalanka</title>
     <link>https://pushpalanka.com/categories/</link>
     <description>Recent content in Categories on Pushpalanka</description>
-    <generator>Hugo -- 0.154.2</generator>
+    <generator>Hugo -- 0.154.3</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pushpalanka.com/categories/index.xml" rel="self" type="application/rss+xml" />
@@ -13,6 +13,13 @@
       <link>https://pushpalanka.com/categories/technical/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://pushpalanka.com/categories/technical/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance Engineering</title>
+      <link>https://pushpalanka.com/categories/performance-engineering/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/categories/performance-engineering/</guid>
       <description></description>
     </item>
   </channel>
