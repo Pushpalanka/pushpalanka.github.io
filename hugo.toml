@@ -16,7 +16,7 @@ buildExpired = false
   env = "production"
   title = "Pushpalanka"
   description = "Architecting Secure Identity Systems"
-  keywords = ["Identity", "Security", "IAM", "Go", "Architecture"]
+  keywords = ["Identity", "Security", "IAM", "Go", "Architecture", "Java"]
   author = "Pushpalanka"
 
   # The "Sage" Aesthetic settings
@@ -66,4 +66,5 @@ buildExpired = false
     favicon = "/push-favicon/favicon.ico"
     favicon16x16 = "/push-favicon/favicon-16x16.png"
     favicon32x32 = "/push-favicon/favicon-32x32.png"
+    favicon48x48 = "/push-favicon/favicon-48x48.png"
     apple_touch_icon = "/push-favicon/apple-touch-icon.png"
