@@ -8,6 +8,12 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 
+# Sitemap configuration
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [minify]
   disableXML = true
   minifyOutput = true
