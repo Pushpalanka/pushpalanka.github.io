@@ -4,7 +4,7 @@
     <title>Tags on Pushpalanka</title>
     <link>https://pushpalanka.com/tags/</link>
     <description>Recent content in Tags on Pushpalanka</description>
-    <generator>Hugo -- 0.154.5</generator>
+    <generator>Hugo -- 0.163.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pushpalanka.com/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -97,6 +97,41 @@
       <link>https://pushpalanka.com/tags/policy-enforcement/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://pushpalanka.com/tags/policy-enforcement/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud-Native</title>
+      <link>https://pushpalanka.com/tags/cloud-native/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/cloud-native/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Identity</title>
+      <link>https://pushpalanka.com/tags/identity/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/identity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://pushpalanka.com/tags/security/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spiffe</title>
+      <link>https://pushpalanka.com/tags/spiffe/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/spiffe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spire</title>
+      <link>https://pushpalanka.com/tags/spire/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/tags/spire/</guid>
       <description></description>
     </item>
   </channel>

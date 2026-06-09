@@ -116,5 +116,35 @@
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url><url>
+    <loc>https://pushpalanka.com/tags/cloud-native/</loc>
+    <lastmod>2020-04-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://pushpalanka.com/tags/identity/</loc>
+    <lastmod>2020-04-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://pushpalanka.com/tags/security/</loc>
+    <lastmod>2020-04-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://pushpalanka.com/tags/spiffe/</loc>
+    <lastmod>2020-04-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://pushpalanka.com/posts/spiffe-in-a-nutshell/</loc>
+    <lastmod>2020-04-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://pushpalanka.com/tags/spire/</loc>
+    <lastmod>2020-04-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Spire on Pushpalanka</title>
+    <link>https://pushpalanka.com/tags/spire/</link>
+    <description>Recent content in Spire on Pushpalanka</description>
+    <generator>Hugo -- 0.163.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://pushpalanka.com/tags/spire/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SPIFFE in a Nutshell</title>
+      <link>https://pushpalanka.com/posts/spiffe-in-a-nutshell/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/posts/spiffe-in-a-nutshell/</guid>
+      <description>A high-level architectural flow and conceptual breakdown of the Secure Production Identity Framework For Everyone (SPIFFE) and SPIRE.</description>
+    </item>
+  </channel>
+</rss>

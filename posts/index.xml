@@ -4,7 +4,7 @@
     <title>Posts on Pushpalanka</title>
     <link>https://pushpalanka.com/posts/</link>
     <description>Recent content in Posts on Pushpalanka</description>
-    <generator>Hugo -- 0.154.5</generator>
+    <generator>Hugo -- 0.163.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pushpalanka.com/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -28,6 +28,13 @@
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://pushpalanka.com/posts/when-optimization-backfire/</guid>
       <description>How a well-intentioned memory optimization led to 2x resource usage, and the lessons learned about trade-offs in production systems</description>
+    </item>
+    <item>
+      <title>SPIFFE in a Nutshell</title>
+      <link>https://pushpalanka.com/posts/spiffe-in-a-nutshell/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://pushpalanka.com/posts/spiffe-in-a-nutshell/</guid>
+      <description>A high-level architectural flow and conceptual breakdown of the Secure Production Identity Framework For Everyone (SPIFFE) and SPIRE.</description>
     </item>
   </channel>
 </rss>
