@@ -6,9 +6,6 @@ author: "Pushpalanka"
 tags: ["spiffe", "spire", "security", "identity", "cloud-native"]
 categories: ["Technical"]
 description: "A high-level architectural flow and conceptual breakdown of the Secure Production Identity Framework For Everyone (SPIFFE) and SPIRE."
-cover:
-  image: "/images/spiffe/spiffe-flow.webp"
-  alt: "SPIFFE Architecture Flow Illustration"
 canonicalURL: https://pushpalanka.com/posts/spiffe-in-a-nutshell
 ---
 
@@ -18,7 +15,9 @@ I have been studying SPIFFE (Secure Production Identity Framework For Everyone) 
 
 *   **Identity Registry** — The SPIRE server(A SPIFFE implementation) has its own identity registry which keeps two coarse-grained attributes that decide how the SPIFFE IDs will be issued to a workload. A separate registration API is provided to manage these entries in the identity registry.
 *   **Node Selector** — This defines a machine (physical or virtual) where a workload can be running on. The exact type of selector to be used is decided based on the infrastructure provider (AWS, GCP, bare metal) that the workload is running on. *E.g., AWS EC2 Instance ID, or the serial number of a physical machine.* Node attestors act based on the infrastructure provider to honor their selectors.
-*   **Workload Selector** — This defines how to identify a process as representing a workload, after the node is identified. This can be described in terms of attributes of the process itself (e.g., Linux UID) or in terms of indirect attributes such as a Kubernetes namespace. The node agent is responsible for verifying that a particular process on a machine qualifies for its workload selector. Workload attestors act based on the process attributes to honor the process selectors.
+*   **Workload Selector** — This defFull writeup: 
+
+ines how to identify a process as representing a workload, after the node is identified. This can be described in terms of attributes of the process itself (e.g., Linux UID) or in terms of indirect attributes such as a Kubernetes namespace. The node agent is responsible for verifying that a particular process on a machine qualifies for its workload selector. Workload attestors act based on the process attributes to honor the process selectors.
 *   **SPIRE Node Agent** — A process that sits on the node, verifies the provenance of workloads running on the node, and provides those workloads with certificates via the Workload API, based on the selectors.
 
 ---
