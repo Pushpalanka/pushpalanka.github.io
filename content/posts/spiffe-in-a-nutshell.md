@@ -7,7 +7,7 @@ tags: ["spiffe", "spire", "security", "identity", "cloud-native"]
 categories: ["Technical"]
 description: "A high-level architectural flow and conceptual breakdown of the Secure Production Identity Framework For Everyone (SPIFFE) and SPIRE."
 cover:
-  image: "/images/spiffe-in-a-nutshell/cover.webp"
+  image: "/images/spiffe/spiffe-flow.webp"
   alt: "SPIFFE Architecture Flow Illustration"
 canonicalURL: https://pushpalanka.com/posts/spiffe-in-a-nutshell
 ---
@@ -22,7 +22,7 @@ I have been studying SPIFFE (Secure Production Identity Framework For Everyone) 
 *   **SPIRE Node Agent** — A process that sits on the node, verifies the provenance of workloads running on the node, and provides those workloads with certificates via the Workload API, based on the selectors.
 
 ---
-{{< figure src="/images/spiffe/spiffe-flow.webp" caption="SPIFFE/SPIRE Architecture Communication Flow" width="400" align="center" >}}
+{{< figure src="/images/spiffe/spiffe-flow.webp" caption="SPIFFE/SPIRE Architecture Communication Flow" width="800" align="center" >}}
 
 ### Architecture & Communication Flow
 
